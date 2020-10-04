@@ -1,0 +1,5 @@
+name: PayToPlace
+version: ${project.version}
+main: banano.bananominecraft.PayToPlace
+api-version: 1.13
+depend: [Vault]
