@@ -11,6 +11,6 @@ public class onJoin implements Listener {
     public void onJoin(PlayerJoinEvent event){
         Player player = event.getPlayer();
         player.setWalkSpeed(0.2F);
-        player.setGameMode(GameMode.ADVENTURE);
+        player.setGameMode(GameMode.CREATIVE);
     }
 }
